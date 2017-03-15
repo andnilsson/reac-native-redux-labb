@@ -39,7 +39,7 @@ class MainView extends React.Component {
             <View style={styles.container}>
                 
                 <Text style={styles.title}>Current count: {this.props.counter.count}</Text>
-                <Button title="Tryck för nästa view" onPress={this.props.navigation.navigate('Second')} />
+                <Button title="Tryck för nästa view" onPress={() => this.props.navigation.navigate('Second')} />
             </View>
         );
     }
