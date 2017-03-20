@@ -12,7 +12,7 @@ class Counter extends React.Component {
         return (
             <View>
                 <Text>
-                    Count: {this.props.counter.count}
+                    Counter: {this.props.counter.count}
                 </Text>
 
                 <Button title="increment" onPress={this.props.increment} />
